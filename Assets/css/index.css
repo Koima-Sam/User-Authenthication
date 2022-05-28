@@ -3,4 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.nav{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px 50px;
+    border: 1px solid greenyellow;
+    font-family: 'Lato';
+}
+.logo{
+    display: flex;
+    align-items: center;  
+    border: 1px solid royalblue;
+    width: 50%;
+    font-size: 30px;
+}
+.nav > .logo > img {
+    height: 40px;
+}
+.nav > .logo > h2 > span {
+    color: coral;
+}
+.nav-links{
+    border: 1px solid goldenrod;
+    width: 50%;
+}
+.nav-links > ul > li{
+    display: inline-block;
+    padding: 5% 10%;
+}
